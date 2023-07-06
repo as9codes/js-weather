@@ -1,4 +1,4 @@
-In this code, replace 'YOUR_API_KEY' with your actual API key from OpenWeatherMap. You can sign up on their website to obtain an API key.
+In the weather.js, replace 'YOUR_API_KEY' with your actual API key from OpenWeatherMap. You can sign up on their website to obtain an API key.
 
 The fetchWeatherData function takes a city as a parameter and constructs the API URL using the city name and API key. It then uses the Fetch API to make an HTTP GET request to the OpenWeatherMap API. Once the response is received, the function extracts the weather description and temperature from the JSON data and logs them to the console.
 
